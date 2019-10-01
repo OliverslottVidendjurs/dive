@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import styles from "./MostPopularDiveEqupment.module.scss";
-import { EqueptmentType, EqueptmentContext, ContextProps } from "../../contexts/EqueptmentContext";
+import { EqueptmentContext, ContextProps } from "../../contexts/EqueptmentContext";
 import DiveEqupment from "./DiveEqupment";
+import SectionTitle from "../common/SectionTitle";
 
 function MostPopularDiveEqupment() {
     const { Equeptments } = useContext<ContextProps>(EqueptmentContext);
@@ -11,12 +12,11 @@ function MostPopularDiveEqupment() {
     );
     return (
         <div>
-            <div className={styles.titleContainer}>
-                <h3>MEST POPULÆRE DYKKERUDSTYR</h3>
-            </div>
+            <SectionTitle text="MEST POPULÆRE DYKKERUDSTYR"/>
             <ul className={styles.list}>
                 {equipmentList}
             </ul>
+            <p className={styles.more}>SE MERE LÆKKERT UDSTYR HER!</p>
         </div>
     );
 }

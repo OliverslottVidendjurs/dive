@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Home.module.scss";
 import MostPopularDiveEqupment from "./MostPopularDiveEqupment";
+import Trips from "./Trips";
 
 function Home() {
     return (
@@ -14,6 +15,9 @@ function Home() {
             <div className={styles.containerMargin}>
                 <section className={styles.section}>
                     <MostPopularDiveEqupment />
+                </section>
+                <section className={styles.section}>
+                    <Trips/>
                 </section>
             </div>
         </div>

@@ -1,21 +1,13 @@
-.titleContainer {
-    width: 100%;
-    background-color: grey;
-    color: white;
-    h3 {
-        background-color: black;
-        width: 50%;
-        height: 100%;
-        padding: 10px 10px 10px 50px;
-        margin-bottom: 50px;
-    }
-}
-
 .list {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    margin-bottom: 25px;
     li {
         width: 23%;
     }
+}
+
+.more {
+    text-align: center;
 }

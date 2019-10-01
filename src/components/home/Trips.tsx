@@ -1,10 +1,11 @@
 import React from "react";
+import SectionTitle from "../common/SectionTitle";
 
 function Trips(){
     return (
-        <div>
-            
-        </div>
+        <section>
+            <SectionTitle text="DYK UD I VERDEN"/>
+        </section>
     );
 }
 
