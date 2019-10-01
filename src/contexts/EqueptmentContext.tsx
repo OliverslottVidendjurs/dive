@@ -14,6 +14,7 @@ export type ContextProps = {
 export const EqueptmentContext = createContext<ContextProps>({} as ContextProps);
 
 function EqueptmentContextProvider(props: any) {
+    //Some pictures are from www.scubastore.com (please don't sue me, I have no money :( )
     const [Equeptments] = useState<EqueptmentType[]>([
         {
             id: 1,
@@ -38,7 +39,32 @@ function EqueptmentContextProvider(props: any) {
             img: "hanske.jpg",
             title: "KOLDVANDS HANSKER",
             price: 899
+        },
+        {
+            id: 5,
+            img: "fullmask.jpg",
+            title: "FULLMASK",
+            price: 345
+        },
+        {
+            id: 6,
+            img: "speargun.jpg",
+            title: "SPEARGUN",
+            price: 999
+        },
+        {
+            id: 7,
+            img: "seac-warm-dry.jpg",
+            title: "DRY SUIT",
+            price: 2999
+        },
+        {
+            id: 8,
+            img: "cressi-corsica.jpg",
+            title: "SNORKEL",
+            price: 59
         }
+
     ]);
     return (
         <EqueptmentContext.Provider value={{Equeptments}}>

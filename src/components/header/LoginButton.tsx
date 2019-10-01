@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 function LoginButton() {
     return (
-        <Link to="/" className={styles.button}>
+        <Link to="/login" className={styles.button}>
             <div>
                 <div className={styles.imgWrapper}>
                     <img src={lock} alt="" />

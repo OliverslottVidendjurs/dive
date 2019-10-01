@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import TripList from "../common/TripList";
+import { TripsContextProps, TripsContext } from "../../contexts/TripsContext";
+import SubPage from "../common/SubPage";
 
 function Trips(){
+    const {trips} = useContext<TripsContextProps>(TripsContext);
+    
     return (
-        <div>
-            
-        </div>
+        <SubPage title="Rejser">
+            <TripList trips={trips}/>
+        </SubPage>
     );
 }
 

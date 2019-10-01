@@ -1,11 +1,15 @@
-import React from "react";
-import SectionTitle from "../common/SectionTitle";
+import React, { useContext } from "react";
+import { TripsContextProps, TripsContext } from "../../contexts/TripsContext";
+import Section from "./Section";
+import TripList from "../common/TripList";
 
-function Trips(){
+function Trips() {
+    const { trips } = useContext<TripsContextProps>(TripsContext);
+
     return (
-        <section>
-            <SectionTitle text="DYK UD I VERDEN"/>
-        </section>
+        <Section title="DYK UD I VERDEN" readMoreText="SE FLERE DESTINATIONER OG MULIGHEDER HER!" readmoreLink="/trips">
+            <TripList trips={trips}/>
+        </Section>
     );
 }
 

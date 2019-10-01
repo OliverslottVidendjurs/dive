@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.scss";
 import MostPopularDiveEqupment from "./MostPopularDiveEqupment";
 import Trips from "./Trips";
+import Courses from "./Courses";
 
 function Home() {
     return (
@@ -12,13 +13,10 @@ function Home() {
                     <p>JACQUES COUSTEAU</p>
                 </div>
             </div>
-            <div className={styles.containerMargin}>
-                <section className={styles.section}>
-                    <MostPopularDiveEqupment />
-                </section>
-                <section className={styles.section}>
-                    <Trips/>
-                </section>
+            <div className="containerMargin">
+                <MostPopularDiveEqupment />
+                <Trips />
+                <Courses />
             </div>
         </div>
     );
