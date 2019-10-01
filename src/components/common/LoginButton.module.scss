@@ -1,0 +1,27 @@
+.button {
+    border: none;
+    text-decoration: none;
+    color: black;
+    &>div {
+        display: flex;
+        height: 30px;
+        border: none;
+        .imgWrapper {
+            height: 100%;
+            width: 30px;
+            background-color: black;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+        .grey {
+            background-color: rgb(204, 204, 204);
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 50px 5px 10px;
+        }
+    }
+}
