@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import "@fortawesome/fontawesome-free/css/all.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, HashRouter } from "react-router-dom";
 import Home from './components/home/Home';
 import Equipment from './components/equipment/Equipment';
 import Trips from './components/trips/Trips';
@@ -19,7 +19,7 @@ const App: React.FC = () => {
 		<div className="App">
 			<TripsContextProvider>
 				<EqueptmentContextProvider>
-					<BrowserRouter>
+					<HashRouter>
 						<Header />
 						<Route exact path="/">
 							<Home />
@@ -43,7 +43,7 @@ const App: React.FC = () => {
 							<Login />
 						</Route>
 						<Footer />
-					</BrowserRouter>
+					</HashRouter>
 				</EqueptmentContextProvider>
 			</TripsContextProvider>
 		</div>
