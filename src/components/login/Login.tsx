@@ -25,16 +25,16 @@ function Login() {
                 <div className={styles.formWrapper}>
                     <form action="todo">
                         <div className={styles.group}>
-                            <label htmlFor="username">Brugernavn</label>
-                            <input type="text" name="username" id="username" required />
+                            <label htmlFor="usernameOpret">Brugernavn</label>
+                            <input type="text" name="usernameOpret" id="usernameOpret" required />
                         </div>
                         <div className={styles.group}>
-                            <label htmlFor="email">Email</label>
-                            <input type="email" name="email" id="email" required />
+                            <label htmlFor="emailOpret">Email</label>
+                            <input type="email" name="emailOpret" id="emailOpret" required />
                         </div>
                         <div className={styles.group}>
-                            <label htmlFor="password">Password</label>
-                            <input type="password" name="password" id="password" required />
+                            <label htmlFor="passwordOpret">Password</label>
+                            <input type="password" name="passwordOpret" id="passwordOpret" required />
                         </div>
                         <div className={styles.group}>
                             <label htmlFor="passwordgentag">Gentag Password</label>

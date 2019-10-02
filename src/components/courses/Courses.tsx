@@ -1,10 +1,12 @@
 import React from "react";
+import CoursesList from "../common/CoursesList";
+import SubPage from "../common/SubPage";
 
 function Courses(){
     return (
-        <div>
-            
-        </div>
+        <SubPage title="Kurser">
+            <CoursesList/>
+        </SubPage>
     );
 }
 
