@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dive/static/css/main.418c8a22.chunk.css",
+    "main.js": "/dive/static/js/main.113a649a.chunk.js",
+    "main.js.map": "/dive/static/js/main.113a649a.chunk.js.map",
+    "runtime-main.js": "/dive/static/js/runtime-main.6ee16f86.js",
+    "runtime-main.js.map": "/dive/static/js/runtime-main.6ee16f86.js.map",
+    "static/css/2.3fe42a39.chunk.css": "/dive/static/css/2.3fe42a39.chunk.css",
+    "static/js/2.547d2222.chunk.js": "/dive/static/js/2.547d2222.chunk.js",
+    "static/js/2.547d2222.chunk.js.map": "/dive/static/js/2.547d2222.chunk.js.map",
+    "index.html": "/dive/index.html",
+    "precache-manifest.301c1adad97a482232da638a09170b2d.js": "/dive/precache-manifest.301c1adad97a482232da638a09170b2d.js",
+    "service-worker.js": "/dive/service-worker.js",
+    "static/css/2.3fe42a39.chunk.css.map": "/dive/static/css/2.3fe42a39.chunk.css.map",
+    "static/css/main.418c8a22.chunk.css.map": "/dive/static/css/main.418c8a22.chunk.css.map",
+    "static/media/PADI.png": "/dive/static/media/PADI.f613d454.png",
+    "static/media/ScubaLiving_logo_small.svg": "/dive/static/media/ScubaLiving_logo_small.e071d947.svg",
+    "static/media/all.css": "/dive/static/media/fa-solid-900.c2801fb4.svg"
+  }
+}
